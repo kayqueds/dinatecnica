@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+   background: url('https://wallpaperboat.com/wp-content/uploads/2019/10/free-website-background-07.jpg')
+   no-repeat top center/cover;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 420px) {
+    #logo{
+       width: 80%; 
+    }
+    header{
+        height: 50px;
+    }
+    #loading{
+        width: 80px;
+        height: 80px;
+        top: 25%;
+        left: -20px;
+    }
+ 
+    
+}
+header {
+    background-color: #f9fafb;
+    padding: 20px;
+    text-align: center;
+    color: #333; /* Alterei a cor do texto para uma cor mais escura para melhor legibilidade */
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: calc(100% - 10px); /* Alterei para 10px para considerar a margem direita */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+button[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="button"]:hover {
+    background-color: #0056b3;
+}
+@keyframes anima {
+    0%{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    100%{
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+    
+}
+#loading{
+    border-radius: 100%;
+    border: 8px solid gray;
+    border-left: 8px solid blue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    animation: anima 1s linear infinite;
+    margin: 20% 47%;
+}
+#preloader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: aliceblue;
+}

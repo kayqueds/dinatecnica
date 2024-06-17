@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="css/2.css">
+    
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/905/905568.png"type="image/x-icon">
+</head>
+<body>
+    <div id="preloader">
+    </div>
+    <div id="loading">
+    </div>
+    <header>
+        <figure>
+            <img id="logo" src="https://bancherosanitarios.com.ar/img/brand-logos/Dinatecnica_color.png" alt="logo da empresa">
+        </figure>
+        
+    </header>
+
+    
+        
+   
+
+        <form action="">
+            <div>
+                <label for="requisição">Requisição:</label>
+                <input type="checkbox" id = "requisição"/>
+                <label for="movimentação">Movimentação</label>
+                <input type="checkbox" id="movimentação">
+               
+            </div>
+            <div>
+                <label for="material">Material</label>
+                <input type="checkbox" name="" id="material">
+                <label for="serviço">Serviço</label>
+                <input type="checkbox" name="" id="serviço">
+            </div>
+            <div>
+                <label for="cotação">Cotação</label>
+                <input type="checkbox" name="" id="cotação">
+                <label for="compras">Compras</label>
+                <input type="checkbox" name="" id="compras">
+            </div>
+            <div>
+                <label for="entr.alx">ENTR.ALX</label>
+                <input type="checkbox" name="" id="entr.alx">
+                <label for="saida.alx">SAÍDA.ALX</label>
+                <input type="checkbox" name="" id="saida.alx">
+                <p></p>
+            </div>
+            <div>
+                <label for="entr.alx">Especificação</label>
+                <input type="text" name="" id="Especificação">
+                <p></p>
+            </div>
+            <div>
+                <label for="n">N°</label>
+                <input type="text" name="" id="N°">
+                <p></p>
+            </div>
+            <div>
+                <label for="destino">Destino</label>
+                <input type="text" name="" id="destino">
+                <p></p>
+            </div>
+            <div>
+                <label for="material2">Material</label>
+                <input type="text" name="" id="material2">
+                <p></p>
+            </div>
+            <div>
+                <label for="unidade">Unidade</label>
+                <input type="number" name="" id="unidade">
+                <p></p>
+            </div>
+            <div>
+                <label for="quant_requis">Quantidade requisitada</label>
+                <input type="number" name="" id="quant_requis" >
+                <p></p>
+            </div>
+
+            <div>
+                <label for="requisitante">Requisitante</label>
+                <input type="text" name="" id="" value=""><label for="">
+                <label for="data">Data</label>
+                <input type="date" name="data" id="data">
+                <p></p>
+            </div>
+                <label for="ordemServico">Ordem de serviço</label>
+                <input type="number" name="" id="ordemServico">
+                <p></p>
+            </div>
+                <label for="centroCdestino">Centro de custo de  destino</label>
+                <input type="number" name="" id="centroCdestino">
+                <p></p>
+            <label for="autorizado">Autorizado Por:</label>
+                <input type="text" name="" id="autorizado">
+                <label for="data</div>
+                ">Data</label>
+                <input type="date" name="data" id="data">
+                
+                <p></p>
+            </div>
+               
+        
+            <div>
+                <label for="prioridade">Prioridade</label>
+                <input type="checkbox" name="" id="sim" value="Sim"><label for="sim">Sim</label>
+                <input type="checkbox" name="" id="nao" value="Não"><label for="nao">Não</label>
+                <p></p>
+            </div>
+           
+                <label for="observaçao">Observação</label>
+                <input type="text" name="" id="observaçao">
+                <p></p>
+            </div>
+            <button onclick="salvar()" type="button">Finalizar</button>
+
+        </form> 
+    
+        <script src="js/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
